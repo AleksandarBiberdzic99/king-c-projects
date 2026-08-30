@@ -5,6 +5,17 @@
 //  Created by Aleksandar on 14. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 1                                           *
+ *                                                                 *
+ *  Extends repdigit.c from Section 8.1 so that it does not only   *
+ *  report whether a digit repeats, but lists which digits do.     *
+ *                                                                 *
+ *  Enter a number: 939577                                         *
+ *  Repeated digit(s): 7 9                                         *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
