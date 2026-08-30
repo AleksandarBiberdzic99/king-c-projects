@@ -5,6 +5,17 @@
 //  Created by Aleksandar on 16. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 10                                          *
+ *                                                                 *
+ *  Reworks Chapter 5, Project 8 to use arrays: departure times    *
+ *  go in one array and arrival times in another, both stored as   *
+ *  integers counting minutes since midnight. A loop scans the     *
+ *  departure array for the time closest to the one entered by     *
+ *  the user, replacing the long chain of if statements.           *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
