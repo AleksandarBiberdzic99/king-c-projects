@@ -5,6 +5,17 @@
 //  Created by Aleksandar on 18. 4. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 6, Project 11                                          *
+ *                                                                 *
+ *  Approximates the constant e by summing the series              *
+ *                                                                 *
+ *      1 + 1/1! + 1/2! + 1/3! + ... + 1/n!                        *
+ *                                                                 *
+ *  where n is entered by the user.                                *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
