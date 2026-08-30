@@ -5,6 +5,24 @@
 //  Created by Aleksandar on 1. 7. 2026..
 //
 
+
+/*******************************************************************
+ *  Chapter 9, Project 8                                           *
+ *                                                                 *
+ *  Simulates the dice game of craps. On the first roll 7 or 11    *
+ *  wins and 2, 3 or 12 loses; any other total becomes the point.  *
+ *  After that, rolling the point wins, rolling 7 loses, and       *
+ *  everything else is ignored. The player is asked after each     *
+ *  game whether to continue; anything other than y or Y ends the  *
+ *  program and prints the win and loss totals.                    *
+ *                                                                 *
+ *  Three functions:                                               *
+ *      int roll_dice(void);   -- sum of two random dice           *
+ *      bool play_game(void);  -- one game, true if the player won *
+ *      main                   -- loops and keeps the tally        *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
