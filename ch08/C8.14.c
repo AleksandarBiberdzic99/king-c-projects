@@ -5,6 +5,23 @@
 //  Created by Aleksandar on 17. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 14                                          *
+ *                                                                 *
+ *  Prints the words of a sentence in reverse order.               *
+ *                                                                 *
+ *  Enter a sentence: you can cage a swallow can't you?            *
+ *  Reversal of sentence: you can't swallow a cage can you?        *
+ *                                                                 *
+ *  Characters are read one at a time into a char array until a    *
+ *  period, question mark or exclamation point appears; that       *
+ *  terminating character is kept aside. A second loop then walks  *
+ *  backwards through the array, finding and printing one word at  *
+ *  a time until the start is reached, and the terminating         *
+ *  character is printed last.                                     *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
