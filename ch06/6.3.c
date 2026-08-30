@@ -5,6 +5,19 @@
 //  Created by Aleksandar on 15. 4. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 6, Project 3                                           *
+ *                                                                 *
+ *  Reads a fraction and prints it reduced to lowest terms.        *
+ *                                                                 *
+ *  Enter a fraction: 6/12                                         *
+ *  In lowest terms: 1/2                                           *
+ *                                                                 *
+ *  Computes the GCD of numerator and denominator, then divides    *
+ *  both by it.                                                    *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
