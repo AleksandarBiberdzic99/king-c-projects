@@ -5,6 +5,21 @@
 //  Created by Aleksandar on 16. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 9                                           *
+ *                                                                 *
+ *  Generates a random walk across a 10 x 10 character array that  *
+ *  starts out filled with '.' characters. The walk moves one      *
+ *  element at a time — up, down, left or right — and marks the    *
+ *  elements it visits with the letters A through Z in order.      *
+ *                                                                 *
+ *  Directions come from rand() % 4. A move is taken only if it    *
+ *  stays inside the array and lands on an unvisited element;      *
+ *  otherwise another direction is tried. If all four directions   *
+ *  are blocked the walk stops early, before reaching Z.           *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
