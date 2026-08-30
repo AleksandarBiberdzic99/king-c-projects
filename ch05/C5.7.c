@@ -5,6 +5,20 @@
 //  Created by Aleksandar on 6/5/25.
 //
 
+/*******************************************************************
+ *  Chapter 5, Project 7                                           *
+ *                                                                 *
+ *  Reads four integers and prints the largest and the smallest.   *
+ *                                                                 *
+ *  Enter four integers: 21 43 10 35                               *
+ *  Largest: 43                                                    *
+ *  Smallest: 10                                                   *
+ *                                                                 *
+ *  The goal is to use as few if statements as possible; four      *
+ *  are enough.                                                    *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
