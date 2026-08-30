@@ -5,6 +5,20 @@
 //  Created by Aleksandar on 6/5/25.
 //
 
+/*******************************************************************
+ *  Chapter 5, Project 3                                           *
+ *                                                                 *
+ *  Extends broker.c from Section 5.2:                             *
+ *    (a) reads the number of shares and price per share instead   *
+ *        of the total trade value;                                *
+ *    (b) also computes a rival broker's commission — $33 plus     *
+ *        3 cents per share below 2000 shares, or $33 plus         *
+ *        2 cents per share at 2000 or above.                      *
+ *                                                                 *
+ *  Both commissions are printed.                                  *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
