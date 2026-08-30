@@ -5,6 +5,14 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 6                                           *
+ *                                                                 *
+ *  Prints the size in bytes of int, short, long, float, double    *
+ *  and long double on the current machine.                        *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
