@@ -4,6 +4,15 @@
 //
 //  Created by Aleksandar on 18. 4. 2026..
 //
+
+/*******************************************************************
+ *  Chapter 6, Project 12                                          *
+ *                                                                 *
+ *  Variant of Project 11: instead of stopping after a fixed       *
+ *  number of terms, the series is summed until the current term   *
+ *  drops below a small floating-point value entered by the user.  *
+ *******************************************************************/
+
 #include <float.h>
 #include <stdlib.h>
 #include <stdio.h>
