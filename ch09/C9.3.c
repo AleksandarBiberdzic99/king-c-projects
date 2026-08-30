@@ -5,6 +5,23 @@
 //  Created by Aleksandar on 29. 6. 2026..
 //
 
+
+/*******************************************************************
+ *  Chapter 9, Project 3                                           *
+ *                                                                 *
+ *  Splits the random walk of Chapter 8, Project 9 into two        *
+ *  functions:                                                     *
+ *                                                                 *
+ *      void generate_random_walk(char walk[10][10]);              *
+ *      void print_array(char walk[10][10]);                       *
+ *                                                                 *
+ *  main calls generate_random_walk, which fills the array with    *
+ *  '.' characters and then overwrites some of them with A         *
+ *  through Z along the walk, and afterwards calls print_array to  *
+ *  display the result.                                            *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
