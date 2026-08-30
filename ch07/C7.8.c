@@ -5,6 +5,22 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 8                                           *
+ *                                                                 *
+ *  Variant of Chapter 5, Project 8 in which the time is entered   *
+ *  on the 12-hour clock: hours:minutes followed by A, P, AM or    *
+ *  PM, in either case, with optional white space before the       *
+ *  indicator. All of these are valid:                             *
+ *                                                                 *
+ *      1:15P    1:15PM    1:15p    1:15pm                         *
+ *      1:15 P   1:15 PM   1:15 p   1:15 pm                        *
+ *                                                                 *
+ *  The input is assumed to be well formed, so no error checking   *
+ *  is needed.                                                     *
+ *******************************************************************/
+
+
 #include <stdio.h>
 #include <ctype.h>
 
