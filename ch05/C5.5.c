@@ -5,6 +5,21 @@
 //  Created by Aleksandar on 6/5/25.
 //
 
+/*******************************************************************
+ *  Chapter 5, Project 5                                           *
+ *                                                                 *
+ *  Reads a taxable income and prints the tax due under a          *
+ *  bracketed rate schedule:                                       *
+ *                                                                 *
+ *      up to 750       1% of income                               *
+ *      750 - 2250      7.50   + 2% over 750                       *
+ *      2250 - 3750     37.50  + 3% over 2250                      *
+ *      3750 - 5250     82.50  + 4% over 3750                      *
+ *      5250 - 7000     142.50 + 5% over 5250                      *
+ *      over 7000       230.00 + 6% over 7000                      *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
