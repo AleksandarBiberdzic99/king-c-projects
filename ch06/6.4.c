@@ -1,3 +1,20 @@
+/*******************************************************************
+ *  Chapter 6, Project 4                                           *
+ *                                                                 *
+ *  Extends broker.c from Section 5.2 with a loop so that several  *
+ *  trades can be entered in one run. The commission is printed    *
+ *  after each trade, and entering 0 ends the program.             *
+ *                                                                 *
+ *  Enter value of trade: 30000                                    *
+ *  Commission: $166.00                                            *
+ *                                                                 *
+ *  Enter value of trade: 20000                                    *
+ *  Commission: $144.00                                            *
+ *                                                                 *
+ *  Enter value of trade: 0                                        *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(void)
