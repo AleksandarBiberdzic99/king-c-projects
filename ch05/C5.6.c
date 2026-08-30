@@ -5,6 +5,16 @@
 //  Created by Aleksandar on 6/5/25.
 //
 
+/*******************************************************************
+ *  Chapter 5, Project 6                                           *
+ *                                                                 *
+ *  Extends upc.c from Section 4.1 to verify a UPC instead of      *
+ *  computing its check digit. The entered code is checked         *
+ *  against its own check digit and the program prints either      *
+ *  VALID or NOT VALID.                                            *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
