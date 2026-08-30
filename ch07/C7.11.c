@@ -5,6 +5,20 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 11                                          *
+ *                                                                 *
+ *  Reads a first and last name and prints the last name, a        *
+ *  comma, and the first initial followed by a period.             *
+ *                                                                 *
+ *  Enter a first and last name: Lloyd Fosdick                     *
+ *  Fosdick, L.                                                    *
+ *                                                                 *
+ *  Extra spaces before the first name, between the names, and     *
+ *  after the last name are tolerated.                             *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
