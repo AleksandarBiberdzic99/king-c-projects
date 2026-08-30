@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 17. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 12                                          *
+ *                                                                 *
+ *  Reworks Chapter 7, Project 5 so that the Scrabble letter       *
+ *  values live in a 26-element lookup array set up with an array  *
+ *  initializer — element 0 holds the value of A, element 1 the    *
+ *  value of B, and so on. Each character read from the word       *
+ *  indexes straight into the array instead of going through a     *
+ *  switch.                                                        *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
