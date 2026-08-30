@@ -5,6 +5,23 @@
 //  Created by Aleksandar on 14. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 6                                           *
+ *                                                                 *
+ *  A "B1FF filter" that rewrites a message in the exaggerated     *
+ *  style of an old-school Internet newbie: everything is put in   *
+ *  upper case, certain letters are swapped for digits             *
+ *  (A->4, B->8, E->3, I->1, O->0, S->5), and about ten            *
+ *  exclamation marks are tacked on at the end.                    *
+ *                                                                 *
+ *  Enter message: Hey dude, C is rilly cool                       *
+ *  In B1FF-speak: H3Y DUD3, C 15 R1LLY C00L!!!!!!!!!!             *
+ *                                                                 *
+ *  The message is first stored in a character array, then         *
+ *  translated and printed one character at a time.                *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
