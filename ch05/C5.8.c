@@ -5,6 +5,30 @@
 //  Created by Aleksandar on 6/5/25.
 //
 
+/*******************************************************************
+ *  Chapter 5, Project 8                                           *
+ *                                                                 *
+ *  Reads a 24-hour time and prints the flight whose departure     *
+ *  is closest to it, together with its arrival time.              *
+ *                                                                 *
+ *      Departure   Arrival                                        *
+ *       8:00 am    10:16 am                                       *
+ *       9:43 am    11:52 am                                       *
+ *      11:19 am     1:31 pm                                       *
+ *      12:47 pm     3:00 pm                                       *
+ *       2:00 pm     4:08 pm                                       *
+ *       3:45 pm     5:55 pm                                       *
+ *       7:00 pm     9:20 pm                                       *
+ *       9:45 pm    11:58 pm                                       *
+ *                                                                 *
+ *  Enter a 24-hour time: 13:15                                    *
+ *  Closest departure time is 12:47 p.m., arriving at 3:00 p.m.    *
+ *                                                                 *
+ *  Both the input and the departure times are converted to        *
+ *  minutes since midnight so they can be compared directly.       *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
