@@ -5,6 +5,21 @@
 //  Created by Aleksandar on 16. 4. 2026..
 //
 
+
+/*******************************************************************
+ *  Chapter 6, Project 6                                           *
+ *                                                                 *
+ *  Reads a number n and prints every even square between          *
+ *  1 and n, one per line.                                         *
+ *                                                                 *
+ *  For n = 100 the output is:                                     *
+ *      4                                                          *
+ *      16                                                         *
+ *      36                                                         *
+ *      64                                                         *
+ *      100                                                        *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
