@@ -5,6 +5,15 @@
 //  Created by Aleksandar on 14. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 3                                           *
+ *                                                                 *
+ *  Extends repdigit.c from Section 8.1 with a loop so that        *
+ *  several numbers can be tested for repeated digits in one run.  *
+ *  Entering a number less than or equal to 0 ends the program.    *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
