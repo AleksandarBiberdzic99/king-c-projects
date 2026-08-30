@@ -5,6 +5,21 @@
 //  Created by Aleksandar on 16. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 11                                          *
+ *                                                                 *
+ *  Extends Chapter 7, Project 4 so that the converted number is   *
+ *  labelled rather than printed on its own.                       *
+ *                                                                 *
+ *  Enter phone number: 1-800-COL-LECT                             *
+ *  In numeric form: 1-800-265-5328                                *
+ *                                                                 *
+ *  The number is held in a character array — either as entered    *
+ *  or already converted — until the whole line can be printed.    *
+ *  It is assumed to be at most 15 characters long.                *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
