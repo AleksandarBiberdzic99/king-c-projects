@@ -1,4 +1,19 @@
 
+/*******************************************************************
+ *  Chapter 6, Project 10                                          *
+ *                                                                 *
+ *  Generalizes Chapter 5, Project 9 from two dates to any number  *
+ *  of them. Dates are read in a loop until the user enters        *
+ *  0/0/0, then the earliest one is printed.                       *
+ *                                                                 *
+ *  Enter a date (mm/dd/yy): 3/6/08                                *
+ *  Enter a date (mm/dd/yy): 5/17/07                               *
+ *  Enter a date (mm/dd/yy): 6/3/07                                *
+ *  Enter a date (mm/dd/yy): 0/0/0                                 *
+ *  5/17/07 is the earliest date                                   *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
