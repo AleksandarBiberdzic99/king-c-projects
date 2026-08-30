@@ -5,6 +5,16 @@
 //  Created by Aleksandar on 14. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 8                                           *
+ *                                                                 *
+ *  Variant of Project 7 applied to grades: reads five quiz        *
+ *  scores for each of five students, then reports the total and   *
+ *  average per student, and the average, highest and lowest       *
+ *  score per quiz.                                                *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
