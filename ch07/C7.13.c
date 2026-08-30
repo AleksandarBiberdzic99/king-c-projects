@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 9. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 13                                          *
+ *                                                                 *
+ *  Calculates the average word length in a sentence and prints    *
+ *  it to one decimal place. Punctuation counts as part of the     *
+ *  word it is attached to.                                        *
+ *                                                                 *
+ *  Enter a sentence: It was deja vu all over again.               *
+ *  Average word length: 3.4                                       *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
