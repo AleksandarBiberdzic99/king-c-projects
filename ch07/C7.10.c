@@ -5,6 +5,16 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 10                                          *
+ *                                                                 *
+ *  Counts the vowels (a, e, i, o, u) in a sentence.               *
+ *                                                                 *
+ *  Enter a sentence: And that's the way it is.                    *
+ *  Your sentence contains 6 vowels.                               *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
