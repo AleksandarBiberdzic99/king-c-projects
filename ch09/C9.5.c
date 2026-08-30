@@ -5,6 +5,25 @@
 //  Created by Aleksandar on 1. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 9, Project 5                                           *
+ *                                                                 *
+ *  Splits the magic square of Chapter 8, Project 17 into two      *
+ *  functions:                                                     *
+ *                                                                 *
+ *      void create_magic_square(int n, char magic_square[n][n]);  *
+ *      void print_magic_square(int n, char magic_square[n][n]);   *
+ *                                                                 *
+ *  main reads n, declares the n x n array, and passes it to       *
+ *  create_magic_square, which fills it with 1 through n^2 by the  *
+ *  same method as the original project. print_magic_square then   *
+ *  displays it.                                                   *
+ *                                                                 *
+ *  Without variable-length array support the array would be       *
+ *  declared 99 x 99 and the parameters written [99][99].          *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
