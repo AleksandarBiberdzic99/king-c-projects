@@ -5,6 +5,26 @@
 //  Created by Aleksandar on 17. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 15                                          *
+ *                                                                 *
+ *  Encrypts a message with a Caesar cipher. Each letter is        *
+ *  replaced by the one a fixed number of positions later in the   *
+ *  alphabet, wrapping around at Z.                                *
+ *                                                                 *
+ *  Enter message to be encrypted: Go ahead, make my day.          *
+ *  Enter shift amount (1-25): 3                                   *
+ *  Encrypted message: Jr dkhdg, pdnh pb gdb.                      *
+ *                                                                 *
+ *  Entering 26 minus the original key decrypts the message.       *
+ *                                                                 *
+ *  Messages are at most 80 characters. Non-letters pass through   *
+ *  unchanged and letters keep their case. The wrap-around is      *
+ *  handled with ((ch - 'A') + n) % 26 + 'A' for upper case, and   *
+ *  the matching expression for lower case.                        *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
