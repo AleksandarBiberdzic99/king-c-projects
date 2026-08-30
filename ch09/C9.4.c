@@ -5,6 +5,24 @@
 //  Created by Aleksandar on 1. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 9, Project 4                                           *
+ *                                                                 *
+ *  Reworks the anagram test of Chapter 8, Project 16 around two   *
+ *  functions:                                                     *
+ *                                                                 *
+ *      void read_word(int counts[26]);                            *
+ *      bool equal_array(int counts1[26], int counts2[26]);        *
+ *                                                                 *
+ *  main declares one counts array per word and calls read_word    *
+ *  twice; each call reads a word and tallies its letters into     *
+ *  the array it was given. main then passes both arrays to        *
+ *  equal_array, which returns true when the tallies match — that  *
+ *  is, when the words are anagrams — and false otherwise.         *
+ *******************************************************************/
+
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
