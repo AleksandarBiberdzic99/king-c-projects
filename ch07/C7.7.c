@@ -5,6 +5,15 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 7                                           *
+ *                                                                 *
+ *  Extends Chapter 3, Project 6 so that two fractions can be      *
+ *  combined with any of the four operators +, -, * or /, which    *
+ *  the user types between them.                                   *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
