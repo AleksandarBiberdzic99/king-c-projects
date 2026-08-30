@@ -1,4 +1,12 @@
-/* Prints a table of squares using an odd method */
+/*******************************************************************
+ *  Chapter 6, Project 7                                           *
+ *                                                                 *
+ *  Rearranges square3.c so that the for loop itself initializes,  *
+ *  tests, and increments i. The logic stays the same and no       *
+ *  multiplication is used — squares are still built by repeated   *
+ *  addition of the odd numbers.                                   *
+ *******************************************************************/
+
 
 #include <stdio.h>
 
