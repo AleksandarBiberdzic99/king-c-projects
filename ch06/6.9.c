@@ -5,6 +5,16 @@
 //  Created by Aleksandar on 18. 4. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 6, Project 9                                           *
+ *                                                                 *
+ *  Extends the loan program from Chapter 2, Project 8. Instead    *
+ *  of a fixed three payments, the user also enters how many       *
+ *  payments to make, and the remaining balance is printed after   *
+ *  each one.                                                      *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
