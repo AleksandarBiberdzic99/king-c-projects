@@ -5,6 +5,20 @@
 //  Created by Aleksandar on 15. 4. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 6, Project 2                                           *
+ *                                                                 *
+ *  Reads two integers and prints their greatest common divisor.   *
+ *                                                                 *
+ *  Enter two integers: 12 28                                      *
+ *  Greatest common divisor: 4                                     *
+ *                                                                 *
+ *  Uses Euclid's algorithm: while n is not zero, replace the      *
+ *  pair (m, n) with (n, m % n); when n reaches zero, m holds      *
+ *  the GCD.                                                       *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
