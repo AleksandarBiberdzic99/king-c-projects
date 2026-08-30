@@ -5,6 +5,30 @@
 //  Created by Aleksandar on 18. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 17                                          *
+ *                                                                 *
+ *  Prints an n x n magic square — an arrangement of 1 through     *
+ *  n^2 in which every row, column and diagonal adds up to the     *
+ *  same total. The size is entered by the user and must be odd,   *
+ *  between 1 and 99.                                              *
+ *                                                                 *
+ *  Enter size of magic square: 5                                  *
+ *      17  24   1   8  15                                         *
+ *      23   5   7  14  16                                         *
+ *       4   6  13  20  22                                         *
+ *      10  12  19  21   3                                         *
+ *      11  18  25   2   9                                         *
+ *                                                                 *
+ *  The square is built in a two-dimensional array by the Siamese  *
+ *  method: 1 goes in the middle of row 0, and each next number    *
+ *  moves up one row and right one column, wrapping around the     *
+ *  edges. If the target cell is already taken, the number goes    *
+ *  directly below the previous one instead. The array is a        *
+ *  variable-length array of n rows and n columns.                 *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
