@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 9                                           *
+ *                                                                 *
+ *  Reads a time on the 12-hour clock and prints the 24-hour       *
+ *  equivalent. The input format is the one described in           *
+ *  Project 8.                                                     *
+ *                                                                 *
+ *  Enter a 12-hour time: 9:11 PM                                  *
+ *  Equivalent 24-hour time: 21:11                                 *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
