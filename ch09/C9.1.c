@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 26. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 9, Project 1                                           *
+ *                                                                 *
+ *  Reads a series of integers into an array and sorts them with   *
+ *  a recursive selection_sort function.                           *
+ *                                                                 *
+ *  Given an array of n elements, selection_sort finds the         *
+ *  largest element and moves it to the last position, then calls  *
+ *  itself to sort the remaining n - 1 elements.                   *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
