@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 14. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 8, Project 2                                           *
+ *                                                                 *
+ *  Extends repdigit.c from Section 8.1 to print a table of how    *
+ *  many times each digit occurs in the number.                    *
+ *                                                                 *
+ *  Enter a number: 41271092                                       *
+ *  Digit:        0  1  2  3  4  5  6  7  8  9                     *
+ *  Occurrences:  1  2  2  0  1  0  0  1  0  1                     *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
