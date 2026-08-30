@@ -5,6 +5,19 @@
 //  Created by Aleksandar on 8. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 12                                          *
+ *                                                                 *
+ *  Evaluates an arithmetic expression made of floating-point      *
+ *  operands and the operators +, -, * and /. Evaluation runs      *
+ *  strictly left to right — no operator has precedence over       *
+ *  another.                                                       *
+ *                                                                 *
+ *  Enter an expression: 1+2.5*3                                   *
+ *  Value of expression: 10.5                                      *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
