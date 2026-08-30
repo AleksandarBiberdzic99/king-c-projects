@@ -5,6 +5,20 @@
 //  Created by Aleksandar on 1. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 9, Project 7                                           *
+ *                                                                 *
+ *  A faster recursive power function than the one in Section 9.6, *
+ *  based on repeated squaring:                                    *
+ *                                                                 *
+ *      n even:  x^n = (x^(n/2))^2                                 *
+ *      n odd:   x^n = x * x^(n-1)                                 *
+ *      n == 0:  the function returns 1                            *
+ *                                                                 *
+ *  The program reads x and n, calls power, and prints the result. *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
