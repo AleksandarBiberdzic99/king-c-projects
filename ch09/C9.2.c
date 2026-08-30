@@ -5,6 +5,15 @@
 //  Created by Aleksandar on 29. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 9, Project 2                                           *
+ *                                                                 *
+ *  Reworks Chapter 5, Project 5 so that the bracket calculation   *
+ *  lives in its own function: given an amount of taxable income,  *
+ *  it returns the tax due.                                        *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
