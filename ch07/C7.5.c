@@ -5,6 +5,22 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 5                                           *
+ *                                                                 *
+ *  Computes the Scrabble value of a word by summing the face      *
+ *  values of its letters:                                         *
+ *                                                                 *
+ *      1: AEILNORSTU    2: DG    3: BCMP                          *
+ *      4: FHVWY         5: K     8: JX     10: QZ                 *
+ *                                                                 *
+ *  Enter a word: pitfall                                          *
+ *  Scrabble value: 12                                             *
+ *                                                                 *
+ *  Mixed case is accepted; toupper normalizes each letter first.  *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
