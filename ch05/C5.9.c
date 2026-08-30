@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 6/6/25.
 //
 
+/*******************************************************************
+ *  Chapter 5, Project 9                                           *
+ *                                                                 *
+ *  Reads two dates and reports which one comes first on the       *
+ *  calendar.                                                      *
+ *                                                                 *
+ *  Enter first date (mm/dd/yy): 3/6/08                            *
+ *  Enter second date (mm/dd/yy): 5/17/07                          *
+ *  5/17/07 is earlier than 3/6/08                                 *
+ *******************************************************************/
+
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
