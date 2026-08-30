@@ -5,6 +5,23 @@
 //  Created by Aleksandar on 7. 6. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 7, Project 4                                           *
+ *                                                                 *
+ *  Converts a phone number written with letters into its numeric  *
+ *  form, using the standard telephone keypad mapping              *
+ *  (2=ABC, 3=DEF, 4=GHI, 5=JKL, 6=MNO, 7=PRS, 8=TUV, 9=WXY).      *
+ *  Characters that are not letters are copied through unchanged.  *
+ *  Letters are assumed to be upper case.                          *
+ *                                                                 *
+ *  Enter phone number: CALLATT                                    *
+ *  2255288                                                        *
+ *                                                                 *
+ *  Enter phone number: 1-800-COL-LECT                             *
+ *  1-800-265-5328                                                 *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
