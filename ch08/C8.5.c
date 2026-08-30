@@ -1,4 +1,10 @@
-/* Prints a table of compound interest */
+/*******************************************************************
+ *  Chapter 8, Project 5                                           *
+ *                                                                 *
+ *  Modifies interest.c from Section 8.1 to compound interest      *
+ *  monthly rather than annually. The output format is unchanged   *
+ *  — balances are still reported once per year.                   *
+ *******************************************************************/
 
 #include <stdio.h>
 
