@@ -5,6 +5,32 @@
 //  Created by Aleksandar on 5. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 10, Project 6                                          *
+ *                                                                 *
+ *  Evaluates expressions written in Reverse Polish Notation,      *
+ *  where each operator follows its operands: 1 + 2 * 3 is written *
+ *  1 2 3 * +.                                                     *
+ *                                                                 *
+ *  Operands are single digits; the operators are +, -, *, / and   *
+ *  =. Reading left to right, an operand is pushed onto a stack,   *
+ *  and an operator pops its operands, applies itself, and pushes  *
+ *  the result back. The = operator prints the value on top,       *
+ *  clears the stack and prompts for another expression; any       *
+ *  character that is neither operator nor operand ends the run.   *
+ *                                                                 *
+ *  Enter an RPN expression: 1 2 3 * + =                           *
+ *  Value of expression: 7                                         *
+ *  Enter an RPN expression: 5 8 * 4 9 - / =                       *
+ *  Value of expression: -8                                        *
+ *  Enter an RPN expression: q                                     *
+ *                                                                 *
+ *  Stack overflow prints "Expression is too complex" and stops;   *
+ *  underflow — as in 1 2 + + — prints "Not enough operands in     *
+ *  expression" and stops. The stack code comes from Section 10.2  *
+ *  and characters are read with scanf(" %c", &ch).                *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -35,7 +61,7 @@ int main(int argc, const char * argv[]) {
 }
 /************************************************************************************************
  *                                                                                              *
- *      evaluate_expression:Evaluates the value of post-fix expression and prints it's value.                                                               *
+ *      evaluate_expression:Evaluates the value of post-fix expression and prints it's value.   *
  *                                                                                              *
  *                                                                                              *
  *                                                                                              *
@@ -79,7 +105,7 @@ void evaluate_expression(void)
 
 /**************************************************
  *                                                *
- *   push: Pushes value on the top of the stack.                                *
+ *   push: Pushes value on the top of the stack.  *
  *                                                *
  *                                                *
  **************************************************/
@@ -94,12 +120,12 @@ void push(int ch)
     stack[top++]=ch;
 }
 
-/**************************************************
- *                                                *
- *   pop: Pops value from the top of the stack and returns it            *
- *       as value.                                                                             *
- *                                                *
- **************************************************/
+/*****************************************************************
+ *                                                               *
+ *   pop: Pops value from the top of the stack and returns it    *
+ *       as value.                                               *
+ *                                                               *
+ *****************************************************************/
 
 int pop(void)
 {
@@ -114,7 +140,7 @@ int pop(void)
 
 /************************************************************************
  *                                                                      *
- *   isFull: Returns true if stack is full and false if it isn't.                                                                    *
+ *   isFull: Returns true if stack is full and false if it isn't.       *
  *                                                                      *
  *                                                                      *
  *                                                                      *
@@ -128,7 +154,7 @@ bool isFull(void)
 
 /************************************************************************
  *                                                                      *
- *   isEmpty: Returns true if stack is empty and false if it isn't.                                                          *
+ *   isEmpty: Returns true if stack is empty and false if it isn't.     *
  *                                                                      *
  *                                                                      *
  *                                                                      *
