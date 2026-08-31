@@ -5,7 +5,15 @@
 //  Created by Aleksandar on 30. 7. 2026..
 //
 
-/* Classifies a poker hand */
+/*******************************************************************
+ *  Chapter 11, Project 4                                          *
+ *                                                                 *
+ *  Removes every external variable from poker.c of Section 10.5,  *
+ *  moving them all into main so that the functions communicate    *
+ *  through arguments instead of shared state. Since analyze_hand  *
+ *  has to modify the straight, flush, four, three and pairs       *
+ *  variables, it receives pointers to them.                       *
+ *******************************************************************/
 
 #include <stdlib.h>
 #include <stdio.h>
