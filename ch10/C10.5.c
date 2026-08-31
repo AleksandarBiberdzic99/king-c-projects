@@ -5,7 +5,13 @@
 //  Created by Aleksandar on 5. 7. 2026..
 //
 
-/* Classifies a poker hand */
+/*******************************************************************
+ *  Chapter 10, Project 5                                          *
+ *                                                                 *
+ *  Extends poker.c from Section 10.5 to recognize the "ace-low"   *
+ *  straight — ace, two, three, four, five — in which the ace      *
+ *  counts as the lowest card rather than the highest.             *
+ *******************************************************************/
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -28,7 +34,7 @@ void print_result(void);
 
 
 /*********************************************************************************************
- *   main: Calls read_cards, analyze_hand, and print_result repeatedly.                                                                                          *
+ *   main: Calls read_cards, analyze_hand, and print_result repeatedly.                      *
  *********************************************************************************************/
 
 int main(int argc, const char * argv[]) {
@@ -43,9 +49,9 @@ int main(int argc, const char * argv[]) {
 }
 
 /******************************************************************************************
- * read_cards: Reads the cards into the external                                                                                                                         *
- *          variables num_in_rank and num_in_suits;                                                                                                             *
- *          checks for bad cards and duplicate cards.                                                                                                           *
+ * read_cards: Reads the cards into the external                                          *
+ *          variables num_in_rank and num_in_suits;                                       *
+ *          checks for bad cards and duplicate cards.                                     *
  ******************************************************************************************/
 void read_cards(void)
 {
@@ -121,11 +127,11 @@ void read_cards(void)
 
 
 /*********************************************************************************
-*  analyze_hand: Determines whether the hand contains a straight, a flush,                                                            *
-*  four-of-a-kind, and/or three-of-a-kind; determines the number of pairs;                                                              *
-*  stores the results into the external variables                                                                                                          *
-*  straight, flush, four, three, and pairs.                                                                                                                      *
-***********************************************************************************/
+*  analyze_hand: Determines whether the hand contains a straight, a flush,       *
+*  four-of-a-kind, and/or three-of-a-kind; determines the number of pairs;       *
+*  stores the results into the external variables                                *
+*  straight, flush, four, three, and pairs.                                      *
+**********************************************************************************/
 
 
 void analyze_hand(void)
@@ -175,10 +181,10 @@ void analyze_hand(void)
 
 
 /***************************************************************************
- * print_result: Prints the classification of the hand,                                                                                   *
- *          based on the values of the external                                                                                    *
- *          variables straight, flush, four, three,                                                                                    *
- *          and pairs.                                                                                                                            *
+ * print_result: Prints the classification of the hand,                    *
+ *          based on the values of the external                            *
+ *          variables straight, flush, four, three,                        *
+ *          and pairs.                                                     *
  ***************************************************************************/
 
 
