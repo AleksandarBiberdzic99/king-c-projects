@@ -5,6 +5,36 @@
 //  Created by Aleksandar on 5. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 10, Project 7                                          *
+ *                                                                 *
+ *  Displays a number the way a seven-segment display would,       *
+ *  drawing each digit out of ordinary characters.                 *
+ *                                                                 *
+ *  Enter a number: 491-9014                                       *
+ *                                                                 *
+ *  Anything that is not a digit is skipped. A macro MAX_DIGITS,   *
+ *  set to 10, caps how many digits are shown; anything beyond     *
+ *  that is dropped.                                               *
+ *                                                                 *
+ *  Two external arrays do the work. The segments array records    *
+ *  which segments each digit lights up (see Chapter 8,            *
+ *  Exercise 6). The digits array is the canvas: 4 rows, since a   *
+ *  segmented digit is four characters tall, and MAX_DIGITS * 4    *
+ *  columns, since each digit is three characters wide plus a      *
+ *  space between them.                                            *
+ *                                                                 *
+ *  Four functions:                                                *
+ *      void clear_digits_array(void);                             *
+ *      void process_digit(int digit, int position);               *
+ *      void print_digits_array(void);                             *
+ *                                                                 *
+ *  clear_digits_array blanks the canvas, process_digit draws one  *
+ *  digit at a given position (0 to MAX_DIGITS - 1), and           *
+ *  print_digits_array prints the four rows, one per line.         *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -54,7 +84,7 @@ int main(int argc, const char * argv[]) {
  *                                                                                        *
  *                                                                                        *
  *                                                                                        *
- *  clear_digits_array: Stores blank charachters into all elements ot the digits array.                                                                 *
+ *  clear_digits_array: Stores blank charachters into all elements ot the digits array.   *
  *                                                                                        *
  *                                                                                        *
  *                                                                                        *
