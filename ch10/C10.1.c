@@ -5,6 +5,24 @@
 //  Created by Aleksandar on 4. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 10, Project 1                                          *
+ *                                                                 *
+ *  Adapts the stack example of Section 10.2 to hold characters    *
+ *  rather than integers, and uses it to check whether a line of   *
+ *  parentheses and braces is properly nested.                     *
+ *                                                                 *
+ *  Enter parentheses and/or braces: ((){}{()})                    *
+ *  Parentheses/braces are nested properly                         *
+ *                                                                 *
+ *  Every left parenthesis or brace is pushed; every right one     *
+ *  pops the stack and must match what comes off. At the newline   *
+ *  the stack has to be empty for the input to be balanced — a     *
+ *  mismatch, a leftover item, or a call to stack_underflow means  *
+ *  it is not. If stack_overflow is called the program prints      *
+ *  "Stack overflow" and stops right away.                         *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -40,9 +58,9 @@ int main(int argc, const char * argv[]) {
 
 /*************************************************
  *                                               *
- * parenthesesCheck: Checks whather parenthes or                        *
- *               braces are properly nested,                           *
- *               and prints the message.                                 *
+ * parenthesesCheck: Checks whather parenthes or *
+ *               braces are properly nested,     *
+ *               and prints the message.         *
  *                                               *
  *                                               *
  *                                               *
@@ -83,14 +101,14 @@ void parenthesesCheck(void)
 
 
 
-/*************************************************
- *                                               *
- * push: Pushes the charachter ch onto the stack.                           *
- *     If the stack is full,calls function stackOverklow( )                 *
- *                                               *
- *                                               *
- *                                               *
- *************************************************/
+/************************************************************
+ *                                                          *
+ *   push: Pushes the charachter ch onto the stack.         *
+ *   If the stack is full,calls function stackOverklow( )   *
+ *                                                          *
+ *                                                          *
+ *                                                          *
+ ************************************************************/
 
 void push(int ch)
 {
@@ -102,12 +120,12 @@ void push(int ch)
 }
 
 
-/*******************************************************************
- *                                                                 *
+/**************************************************************************************+*****
+ *                                                                                          *
  *    pop: Pops the charachter from the top of the stack and decrements top variable.       *
- *        If the stack is empty,calls function stackUnderflow( )                                           *
- *                                                                 *
- *******************************************************************/
+ *        If the stack is empty,calls function stackUnderflow( )                            *                                       
+ *                                                                                          *
+ ********************************************************************************************/
 
 int pop(void)
 {
@@ -121,8 +139,8 @@ int pop(void)
 
 /*************************************************
  *                                               *
- *     isFull: Cheks if the stack is full.                                             *
- *     If it is it returns true,if not false                                             *
+ *     isFull: Cheks if the stack is full.       *
+ *     If it is it returns true,if not false     *
  *                                               *
  *                                               *
  *                                               *
@@ -138,8 +156,8 @@ bool isFull(void)
 
 /*******************************************************************
  *                                                                 *
- *    isEmpty: Cheks if the stack is empty.                                                                             *
- *           If it is it returns true,if it is't it returns false.                                                     *
+ *    isEmpty: Cheks if the stack is empty.                        *
+ *           If it is it returns true,if it is't it returns false. *
  *                                                                 *
  *******************************************************************/
 
@@ -148,13 +166,13 @@ bool isEmpty(void)
     return top==0;
 }
 
-/*******************************************************************
- *                                                                 *
+/******************************************************************************************************
+ *                                                                                                    *
  *    stackOverflow: It's called when stack is full and function push is called.                      *
- *               It prints message that stack is full and terminates the program.           *
- *                                                                 *
- *                                                                 *
- *******************************************************************/
+ *               It prints message that stack is full and terminates the program.                     *
+ *                                                                                                    *
+ *                                                                                                    *
+ ******************************************************************************************************/
 
 
 void stackOverflow(void)
@@ -163,13 +181,13 @@ void stackOverflow(void)
     exit(EXIT_FAILURE);
 }
 
-/*******************************************************************
- *                                                                 *
- *   stackUndeflow: It's called when stack is empty and function pop is called.                    *
- *    It prints message that stack is undeflow and terminates the program.                          *
- *                                                                 *
- *                                                                 *
- *******************************************************************/
+/***********************************************************************************************
+ *                                                                                             *
+ *   stackUndeflow: It's called when stack is empty and function pop is called.                *
+ *    It prints message that stack is undeflow and terminates the program.                     *
+ *                                                                                             *
+ *                                                                                             *
+ ***********************************************************************************************/
 
 
 int stackUnderflow(void)
