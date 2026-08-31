@@ -5,6 +5,22 @@
 //  Created by Aleksandar on 30. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 11, Project 2                                          *
+ *                                                                 *
+ *  Reworks Chapter 5, Project 8 around a function that hands its  *
+ *  results back through pointers:                                 *
+ *                                                                 *
+ *      void find_closest_flight(int desired_time,                 *
+ *                               int *departure_time,              *
+ *                               int *arrival_time);               *
+ *                                                                 *
+ *  It picks the flight whose departure is nearest desired_time    *
+ *  and stores that flight's departure and arrival times in the    *
+ *  variables the two pointers refer to. All times are in minutes  *
+ *  since midnight.                                                *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
