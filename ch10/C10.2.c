@@ -5,7 +5,14 @@
 //  Created by Aleksandar on 4. 7. 2026..
 //
 
-/* Classifies a poker hand */
+/*******************************************************************
+ *  Chapter 10, Project 2                                          *
+ *                                                                 *
+ *  Restructures poker.c from Section 10.5: the num_in_rank and    *
+ *  num_in_suit arrays are no longer external variables shared by  *
+ *  the whole file, but local to main, which passes them as        *
+ *  arguments to read_cards and analyze_hand.                      *
+ *******************************************************************/
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -26,7 +33,7 @@ void print_result(void);
 
 
 /*********************************************************************************************
- *   main: Calls read_cards, analyze_hand. and print result    repeatedly.                                                                                        *
+ *   main: Calls read_cards, analyze_hand. and print result    repeatedly.                   *
  *                                                                                           *
  *********************************************************************************************/
 
@@ -46,9 +53,9 @@ int main(int argc, const char * argv[]) {
     }
 
     /******************************************************************************************
-     * read_cards: Reads the cards into the external                                                                                                                         *
-     *          variables num_in_rank and num_in_suit;                                                                                                              *
-     *          checks for bad cards and duplicate cards.                                                                                                          *
+     * read_cards: Reads the cards into the external                                          *
+     *          variables num_in_rank and num_in_suit;                                        *
+     *          checks for bad cards and duplicate cards.                                     *
      ******************************************************************************************/
     void read_cards(int num_in_rank[],int num_in_suits[])
 {
@@ -124,13 +131,13 @@ int main(int argc, const char * argv[]) {
     }
 
 
-/**********************************************************************************
-*                                                                                                                                                                                    *
-*  analyze_hand: Determines whether the hand contains a straight, a flush ,four of a kind,                                       *
-*  and/or three-of-a-kind; determines the number of pairs; stores the results into the external variables                  *
-*  straight,flush.four.three,and pairs.                                                                                                                            *
-*                                                                                                                                                                                    *
-***********************************************************************************/
+/*******************************************************************************************************************
+*                                                                                                                  *
+*  analyze_hand: Determines whether the hand contains a straight, a flush ,four of a kind,                         *
+*  and/or three-of-a-kind; determines the number of pairs; stores the results into the external variables          *
+*  straight,flush.four.three,and pairs.                                                                            *
+*                                                                                                                  *
+********************************************************************************************************************/
     
     
 void analyze_hand(int num_in_rank[],int num_in_suits[])
@@ -175,10 +182,10 @@ void analyze_hand(int num_in_rank[],int num_in_suits[])
 
 /***************************************************************************
  *                                                                         *
- * print_result: Prints the classification of the hand,                                                                                    *
- *          based on the values of the external                                                                                    *
- *          variables straight, flush, four, three,                                                                                     *
- *          and pairs.                                                                                                                            *
+ * print_result: Prints the classification of the hand,                    *
+ *          based on the values of the external                            *
+ *          variables straight, flush, four, three,                        *
+ *          and pairs.                                                     *
  *                                                                         *
  ***************************************************************************/
 
