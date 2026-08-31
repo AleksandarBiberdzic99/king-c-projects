@@ -5,6 +5,21 @@
 //  Created by Aleksandar on 30. 7. 2026..
 //
 
+/*******************************************************************
+ *  Chapter 11, Project 3                                          *
+ *                                                                 *
+ *  Reworks Chapter 6, Project 3 around a function that returns    *
+ *  two values through pointers:                                   *
+ *                                                                 *
+ *      void reduce(int numerator, int denominator,                *
+ *                  int *reduced_numerator,                        *
+ *                  int *reduced_denominator);                     *
+ *                                                                 *
+ *  Given a fraction, it reduces it to lowest terms and stores the *
+ *  resulting numerator and denominator in the variables the two   *
+ *  pointers refer to.                                             *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
