@@ -6,14 +6,14 @@
 //
 
 /**********************************************************
- * Chapter 12, Project 2(b)                                                                                    *
+ * Chapter 12, Project 2(b)                               *
  *                                                        *
- * Revised version of Project 2(a). Uses pointers instead                                     *
- * of integers to keep track of positions in the array.                                             *
- * Reads a message entered by the user and checks whether                             *
- * it is a palindrome, ignoring characters that are not                                            *
- * letters and treating upper-case and lower-case letters                                      *
- * as equivalent.                                                                                                      *
+ * Revised version of Project 2(a). Uses pointers instead *
+ * of integers to keep track of positions in the array.   *
+ * Reads a message entered by the user and checks whether *
+ * it is a palindrome, ignoring characters that are not   *
+ * letters and treating upper-case and lower-case letters *
+ * as equivalent.                                         *
  **********************************************************/
 
 #include <stdlib.h>
