@@ -6,14 +6,14 @@
 //
 
 /**********************************************************
- * Chapter 12, Project  6                                                                                      *
+ * Chapter 12, Project  6                                 *
  *                                                        *
- * Modified version of qsort.c (Section 9.6). The low,                                           *
- * high, and middle variables are now pointers to array                                        *
- * elements rather than integers, and the split function                                        *
- * returns a pointer instead of an integer. Sorts an                                                *
- * array of integers entered by the user using the                                                 *
- * Quicksort algorithm.                                                                                           *
+ * Modified version of qsort.c (Section 9.6). The low,    *
+ * high, and middle variables are now pointers to array   *
+ * elements rather than integers, and the split function  *
+ * returns a pointer instead of an integer. Sorts an      *
+ * array of integers entered by the user using the        *
+ * Quicksort algorithm.                                   *
  **********************************************************/
 
 #include <stdlib.h>
