@@ -6,14 +6,14 @@
 //
 
 /**********************************************************
- * Chapter 12, Project 1(b)                                                                                    *
+ * Chapter 12, Project 1(b)                               *
  *                                                        *
- * Revised version of Project 1(a). Uses a pointer                                                *
- * instead of an integer to keep track of the current                                             *
- * position in the array. Reads a message one character                                     *
- * at a time using getchar, stopping when the array is                                          *
- * full or a new-line character is entered, then prints                                            *
- * the message in reverse.                                                                                     *
+ * Revised version of Project 1(a). Uses a pointer        *
+ * instead of an integer to keep track of the current     *
+ * position in the array. Reads a message one character   *
+ * at a time using getchar, stopping when the array is    *
+ * full or a new-line character is entered, then prints   *
+ * the message in reverse.                                *
  **********************************************************/
 
 #include <stdlib.h>
