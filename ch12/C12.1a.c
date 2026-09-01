@@ -6,12 +6,12 @@
 //
 
 /**********************************************************
- * Chapter 12, Project 1(a)                                                                                    *
+ * Chapter 12, Project 1(a)                               *
  *                                                        *
- * Reads a message one character at a time using getchar,                                *
- * storing the characters in an array. Stops reading when                                     *
- * the array is full or a new-line character is entered,                                            *
- * then prints the message in reverse.                                                                    *
+ * Reads a message one character at a time using getchar, *
+ * storing the characters in an array. Stops reading when *
+ * the array is full or a new-line character is entered,  *
+ * then prints the message in reverse.                    *
  **********************************************************/
 
 #include <stdlib.h>
