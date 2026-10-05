@@ -6,15 +6,15 @@
 //
 
 /********************************************************
- * Chapter 13, Project 10                                                                                  *
+ * Chapter 13, Project 10                               *
  *                                                      *
- * Modified version of Chapter 7, Project 11. Uses the                                   *
- * function reverse_name, which modifies a string                                        *
- * containing a first and last name so that the last                                         *
- * name comes first, followed by a comma, a space, the                               *
- * first initial, and a period (e.g. "Lloyd Fosdick"                                             *
- * becomes "Fosdick, L."). Extra spaces before, between,                             *
- * and after the names are allowed.                                                                  *
+ * Modified version of Chapter 7, Project 11. Uses the  *
+ * function reverse_name, which modifies a string       *
+ * containing a first and last name so that the last    *
+ * name comes first, followed by a comma, a space, the  *
+ * first initial, and a period (e.g. "Lloyd Fosdick"    *
+ * becomes "Fosdick, L."). Extra spaces before, between,*
+ * and after the names are allowed.                     *
  *********************************************************/
 
 #include <stdlib.h>
