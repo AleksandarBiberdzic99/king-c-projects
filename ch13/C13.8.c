@@ -6,12 +6,12 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 8                                                                                     *
+ * Chapter 13, Project 8                                 *
  *                                                       *
- * Modified version of Chapter 7, Project 5. Computes                                   *
- * the SCRABBLE value of a word using the function                                      *
- * compute_scrabble_value, which returns the value of                                 *
- * the string pointed to by word.                                                                       *
+ * Modified version of Chapter 7, Project 5. Computes    *
+ * the SCRABBLE value of a word using the function       *
+ * compute_scrabble_value, which returns the value of    *
+ * the string pointed to by word.                        *
  *********************************************************/
 
 #include <stdlib.h>
