@@ -6,14 +6,14 @@
 //
 
 /**********************************************************
- * Chapter 12, Project  7                                                                                       *
+ * Chapter 12, Project  7                                 *
  *                                                        *
- * Modified version of maxmin.c (Section 11.4). The                                            *
- * max_min function now uses a pointer instead of an                                         *
- * integer to keep track of the current position in the                                           *
- * array. Finds the largest and smallest elements of an                                         *
- * array of n integers, returning them through the max                                         *
- * and min parameters.                                                                                          *
+ * Modified version of maxmin.c (Section 11.4). The       *
+ * max_min function now uses a pointer instead of an      *
+ * integer to keep track of the current position in the   *
+ * array. Finds the largest and smallest elements of an   *
+ * array of n integers, returning them through the max    *
+ * and min parameters.                                    *
  **********************************************************/
 
 

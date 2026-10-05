@@ -6,13 +6,13 @@
 //
 
 /**********************************************************
- * Chapter 12, Project 2(a)                                                                                    *
+ * Chapter 12, Project 2(a)                               *
  *                                                        *
- * Reads a message entered by the user and checks whether                            *
- * it is a palindrome, ignoring any characters that are                                           *
- * not letters and treating upper-case and lower-case                                          *
- * letters as equivalent. Displays either "Palindrome"                                            *
- * or "Not a palindrome".                                                                                       *
+ * Reads a message entered by the user and checks whether *
+ * it is a palindrome, ignoring any characters that are   *
+ * not letters and treating upper-case and lower-case     *
+ * letters as equivalent. Displays either "Palindrome"    *
+ * or "Not a palindrome".                                 *
  **********************************************************/
 
 #include <stdlib.h>

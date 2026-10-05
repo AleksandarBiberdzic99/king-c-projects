@@ -6,14 +6,14 @@
 //
 
 /**********************************************************
- * Chapter 12, Project 5                                                                                        *
+ * Chapter 12, Project 5                                  *
  *                                                        *
- * Modified version of Programming Project 14 from                                           *
- * Chapter 8. Uses a pointer instead of an integer to                                            *
- * keep track of the current position in the array that                                           *
- * contains the sentence. Reads a sentence entered by                                       *
- * the user and displays it with the words in reverse                                             *
- * order.                                                                                                                  *
+ * Modified version of Programming Project 14 from        *
+ * Chapter 8. Uses a pointer instead of an integer to     *
+ * keep track of the current position in the array that   *
+ * contains the sentence. Reads a sentence entered by     *
+ * the user and displays it with the words in reverse     *
+ * order.                                                 *
  **********************************************************/
 
 #include <stdlib.h>

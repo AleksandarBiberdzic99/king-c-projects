@@ -6,14 +6,14 @@
 //
 
 /**********************************************************
- * Chapter 12, Project 3                                                                                        *
+ * Chapter 12, Project 3                                  *
  *                                                        *
- * Simplified version of Project 1(b), taking advantage                                         *
- * of the fact that an array name can be used as a                                                *
- * pointer to the first element of the array. Reads a                                               *
- * message one character at a time until the array is                                             *
- * full or a new-line character is entered, then prints                                             *
- * the message in reverse.                                                                                      *
+ * Simplified version of Project 1(b), taking advantage   *
+ * of the fact that an array name can be used as a        *
+ * pointer to the first element of the array. Reads a     *
+ * message one character at a time until the array is     *
+ * full or a new-line character is entered, then prints   *
+ * the message in reverse.                                *
  **********************************************************/
 
 #include <stdlib.h>
