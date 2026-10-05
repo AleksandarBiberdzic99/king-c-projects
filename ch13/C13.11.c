@@ -7,13 +7,13 @@
 
 
 /*********************************************************
- * Chapter 13, Project 11                                                                                    *
+ * Chapter 13, Project 11                                *
  *                                                       *
- * Modified version of Chapter 7, Project 13. Computes                                 *
- * the average word length of a sentence using the                                       *
- * function compute_average_word_length, which returns                            *
- * the average length of the words in the string pointed                                *
- * to by sentence.                                                                                               *
+ * Modified version of Chapter 7, Project 13. Computes   *
+ * the average word length of a sentence using the       *
+ * function compute_average_word_length, which returns   *
+ * the average length of the words in the string pointed *
+ * to by sentence.                                       *
  *********************************************************/
 
 
