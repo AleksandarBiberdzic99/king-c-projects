@@ -6,11 +6,11 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 6                                                                                     *
+ * Chapter 13, Project 6                                 *
  *                                                       *
- * Improved version of planet.c (Section 13.7). Ignores                                  *
- * case when comparing command-line arguments with                               *
- * strings in the planets array.                                                                           *
+ * Improved version of planet.c (Section 13.7). Ignores  *
+ * case when comparing command-line arguments with       *
+ * strings in the planets array.                         *
  *********************************************************/
 
 #include <stdio.h>
