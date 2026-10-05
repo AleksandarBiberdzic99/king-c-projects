@@ -7,12 +7,12 @@
 
 
 /*********************************************************
- * Chapter 13, Project 14                                                                                    *
+ * Chapter 13, Project 14                                *
  *                                                       *
- * Modified version of Chapter 8, Project 16. Tests                                         *
- * whether two words are anagrams using the function                                 *
- * are_anagrams, which returns true if the strings                                         *
- * pointed to by word1 and word2 are anagrams.                                           *
+ * Modified version of Chapter 8, Project 16. Tests      *
+ * whether two words are anagrams using the function     *
+ * are_anagrams, which returns true if the strings       *
+ * pointed to by word1 and word2 are anagrams.           *
  *********************************************************/
 
 
