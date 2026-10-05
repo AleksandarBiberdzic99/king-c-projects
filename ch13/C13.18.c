@@ -7,12 +7,12 @@
 
 
 /*********************************************************
- * Chapter 13, Project 18                                                                                    *
+ * Chapter 13, Project 18                                *
  *                                                       *
- * Accepts a date in the form mm/dd/yyyy and displays it                              *
- * in the form "month dd, yyyy" (e.g. 2/17/2011 becomes                               *
- * February 17, 2011). Month names are stored in an                                       *
- * array of pointers to strings.                                                                            *
+ * Accepts a date in the form mm/dd/yyyy and displays it *
+ * in the form "month dd, yyyy" (e.g. 2/17/2011 becomes  *
+ * February 17, 2011). Month names are stored in an      *
+ * array of pointers to strings.                         *
  *********************************************************/
 
 
