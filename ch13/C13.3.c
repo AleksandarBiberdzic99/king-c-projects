@@ -6,11 +6,11 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 3                                                                                     *
+ * Chapter 13, Project 3                                 *
  *                                                       *
- * Modified version of deal.c (Section 8.2). Prints the                                    *
- * full names of the cards it deals (e.g. "Seven of                                           *
- * clubs").                                                                                                            *
+ * Modified version of deal.c (Section 8.2). Prints the  *
+ * full names of the cards it deals (e.g. "Seven of      *
+ * clubs").                                              *
  *********************************************************/
 
 #include <stdbool.h>   /* C99 only */
