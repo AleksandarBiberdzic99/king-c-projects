@@ -7,14 +7,14 @@
 
 
 /*********************************************************
- * Chapter 13, Project 12                                                                                    *
+ * Chapter 13, Project 12                                *
  *                                                       *
- * Modified version of Chapter 8, Project 14. Reverses                                   *
- * the words in a sentence, storing the words in a                                          *
- * two-dimensional char array as it reads the sentence                                  *
- * (one word per row, each terminated by a null                                              *
- * character). The sentence contains no more than 30                                   *
- * words, and no word is longer than 20 characters.                                       *
+ * Modified version of Chapter 8, Project 14. Reverses   *
+ * the words in a sentence, storing the words in a       *
+ * two-dimensional char array as it reads the sentence   *
+ * (one word per row, each terminated by a null          *
+ * character). The sentence contains no more than 30     *
+ * words, and no word is longer than 20 characters.      *
  *********************************************************/
 
 
