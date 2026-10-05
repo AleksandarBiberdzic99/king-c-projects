@@ -7,12 +7,12 @@
 
 
 /*********************************************************
- * Chapter 13, Project 7                                                                                      *
+ * Chapter 13, Project 7                                 *
  *                                                       *
- * Modified version of Chapter 5, Project 11. Prints the                                  *
- * English word for a two-digit number, using arrays of                                 *
- * pointers to strings instead of switch statements                                        *
- * (the digit is used as an index into the array).                                              *
+ * Modified version of Chapter 5, Project 11. Prints the *
+ * English word for a two-digit number, using arrays of  *
+ * pointers to strings instead of switch statements      *
+ * (the digit is used as an index into the array).       *
  *********************************************************/
 
 
