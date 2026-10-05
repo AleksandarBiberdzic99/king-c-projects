@@ -6,12 +6,12 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 2 (b)                                                                                *
+ * Chapter 13, Project 2 (b)                             *
  *                                                       *
- * Improved version of remind.c (Section 13.5). Allows                                   *
- * the user to enter a day, a 24-hour time, and a                                             *
- * reminder. The printed reminder list is sorted first                                        *
- * by day, then by time.                                                                                      *
+ * Improved version of remind.c (Section 13.5). Allows   *
+ * the user to enter a day, a 24-hour time, and a        *
+ * reminder. The printed reminder list is sorted first   *
+ * by day, then by time.                                 *
  *********************************************************/
 
 #include <stdlib.h>
