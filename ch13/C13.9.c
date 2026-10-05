@@ -6,12 +6,12 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 9                                                                                     *
+ * Chapter 13, Project 9                                 *
  *                                                       *
- * Modified version of Chapter 7, Project 10. Counts the                                *
- * vowels in a sentence using the function                                                      *
- * compute_vowel_count, which returns the number of                                 *
- * vowels in the string pointed to by sentence.                                               *
+ * Modified version of Chapter 7, Project 10. Counts the *
+ * vowels in a sentence using the function               *
+ * compute_vowel_count, which returns the number of      *
+ * vowels in the string pointed to by sentence.          *
  *********************************************************/
 
 #include <stdlib.h>
