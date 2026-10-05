@@ -7,12 +7,12 @@
 
 
 /*********************************************************
- * Chapter 13, Project 17                                                                                    *
+ * Chapter 13, Project 17                                *
  *                                                       *
- * Modified version of Chapter 12, Project 2. Checks                                      *
- * whether a message is a palindrome using the function                              *
- * is_palindrome, which returns true if the string                                            *
- * pointed to by message is a palindrome.                                                       *
+ * Modified version of Chapter 12, Project 2. Checks     *
+ * whether a message is a palindrome using the function  *
+ * is_palindrome, which returns true if the string       *
+ * pointed to by message is a palindrome.                *
  *********************************************************/
 
 
