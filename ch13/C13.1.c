@@ -6,12 +6,12 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 1                                                                                      *
+ * Chapter 13, Project 1                                 *
  *                                                       *
- * Finds the "smallest" and "largest" word in a series                                     *
- * of words (dictionary order). Input stops when the                                       *
- * user enters a four-letter word. No word is longer                                         *
- * than 20 letters.                                                                                                *
+ * Finds the "smallest" and "largest" word in a series   *
+ * of words (dictionary order). Input stops when the     *
+ * user enters a four-letter word. No word is longer     *
+ * than 20 letters.                                      *
  *********************************************************/
 
 #include <stdlib.h>
