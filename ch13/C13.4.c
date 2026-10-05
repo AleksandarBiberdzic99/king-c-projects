@@ -6,11 +6,11 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 4                                                                                      *
+ * Chapter 13, Project 4                                 *
  *                                                       *
- * Echoes its command-line arguments in reverse order.                               *
- * Example: "reverse void and null" prints                                                        *
- * "null and void".                                                                                                *
+ * Echoes its command-line arguments in reverse order.   *
+ * Example: "reverse void and null" prints               *
+ * "null and void".                                      *
  *********************************************************/
 
 #include <stdlib.h>
