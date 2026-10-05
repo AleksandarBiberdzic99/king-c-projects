@@ -53,7 +53,7 @@ int main(int argc, const char * argv[]) {
 }
 /************************************************************************************************
  *                                                                                              *
- *      evaluate_expression:Evaluates the value of post-fix expression and prints it's value.                                                         *
+ *      evaluate_expression:Evaluates the value of post-fix expression and prints it's value.   *
  *                                                                                              *
  *                                                                                              *
  *                                                                                              *
@@ -129,7 +129,7 @@ int evaluate_RPN_expression(const char *expression)
 
 /**************************************************
  *                                                *
- *   push: Pushes value on the top of the stack.                            *
+ *   push: Pushes value on the top of the stack.  *
  *                                                *
  *                                                *
  **************************************************/
@@ -144,11 +144,12 @@ void push(int ch)
     stack[top++]=ch;
 }
 
-/**************************************************
- *                                                *
- *   pop: Pops value from the top of the stack and returns it        *
- *       as value.                                                                             *
- *                                                *
+/***************************************************
+ *                                                 *
+ *   pop: Pops value from the top of the stack and *
+ *       returns it                                *
+ *       as value.                                 *                                             
+ *                                                 *
  **************************************************/
 
 int pop(void)
@@ -164,7 +165,7 @@ int pop(void)
 
 /************************************************************************
  *                                                                      *
- *   isFull: Returns true if stack is full and false if it isn't.                                                                *
+ *   isFull: Returns true if stack is full and false if it isn't.       *
  *                                                                      *
  *                                                                      *
  *                                                                      *
