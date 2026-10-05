@@ -6,11 +6,11 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 5                                                                                      *
+ * Chapter 13, Project 5                                 *
  *                                                       *
- * Adds up its command-line arguments, which are assumed                        *
- * to be integers. Example: "sum 8 24 62" prints                                            *
- * "Total: 94".                                                                                                      *
+ * Adds up its command-line arguments, which are assumed *
+ * to be integers. Example: "sum 8 24 62" prints         *
+ * "Total: 94".                                          *
  *********************************************************/
 
 #include <stdlib.h>
