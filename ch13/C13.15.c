@@ -7,12 +7,12 @@
 
 
 /*********************************************************
- * Chapter 13, Project 15                                                                                    *
+ * Chapter 13, Project 15                                *
  *                                                       *
- * Modified version of Chapter 10, Project 6. Evaluates                                  *
- * Reverse Polish Notation (RPN) expressions using the                                *
- * function evaluate_RPN_expression, which returns the                               *
- * value of the RPN expression pointed to by expression.                              *
+ * Modified version of Chapter 10, Project 6. Evaluates  *
+ * Reverse Polish Notation (RPN) expressions using the   *
+ * function evaluate_RPN_expression, which returns the   *
+ * value of the RPN expression pointed to by expression. *
  *********************************************************/
 
 
