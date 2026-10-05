@@ -7,12 +7,12 @@
 
 
 /*********************************************************
- * Chapter 13, Project 13                                                                                    *
+ * Chapter 13, Project 13                                *
  *                                                       *
- * Modified version of Chapter 8, Project 15. Encrypts a                                *
- * message using a Caesar cipher with the function                                       *
- * encrypt, which shifts each letter in the string                                              *
- * pointed to by message by the amount given by shift.                                 *
+ * Modified version of Chapter 8, Project 15. Encrypts a *
+ * message using a Caesar cipher with the function       *
+ * encrypt, which shifts each letter in the string       *
+ * pointed to by message by the amount given by shift.   *
  *********************************************************/
 
 
