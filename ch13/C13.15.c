@@ -179,7 +179,7 @@ bool isFull(void)
 
 /************************************************************************
  *                                                                      *
- *   isEmpty: Returns true if stack is empty and false if it isn't.                                                      *
+ *   isEmpty: Returns true if stack is empty and false if it isn't.     *
  *                                                                      *
  *                                                                      *
  *                                                                      *
