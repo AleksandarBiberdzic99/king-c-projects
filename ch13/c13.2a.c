@@ -6,12 +6,12 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 2 (a)                                                                                *
+ * Chapter 13, Project 2 (a)                             *
  *                                                       *
- * Improved version of remind.c (Section 13.5). Prints                                    *
- * an error message and ignores a reminder if the                                          *
- * corresponding day is negative or larger than 31.                                         *
- * corresponding day is negative or larger than 31.                                         *
+ * Improved version of remind.c (Section 13.5). Prints   *
+ * an error message and ignores a reminder if the        *
+ * corresponding day is negative or larger than 31.      *
+ * corresponding day is negative or larger than 31.      *
  *********************************************************/
 
 #include <stdlib.h>
