@@ -6,11 +6,11 @@
 //
 
 /*********************************************************
- * Chapter 13, Project 2 (c)                                                                                *
+ * Chapter 13, Project 2 (c)                             *
  *                                                       *
- * Improved version of remind.c (Section 13.5). Prints                                    *
- * a one-year reminder list. Days are entered in the                                        *
- * form month/day.                                                                                              *
+ * Improved version of remind.c (Section 13.5). Prints   *
+ * a one-year reminder list. Days are entered in the     *
+ * form month/day.                                       *
  *********************************************************/
 
 #include <stdlib.h>
