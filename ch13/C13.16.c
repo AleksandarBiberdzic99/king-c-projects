@@ -7,13 +7,13 @@
 
 
 /*********************************************************
- * Chapter 13, Project 16                                                                                    *
+ * Chapter 13, Project 16                                *
  *                                                       *
- * Modified version of Chapter 12, Project 1. Reverses a                                *
- * message using the function reverse, which reverses                                 *
- * the string pointed to by message in place by swapping                             *
- * characters with two pointers moving toward each other                           *
- * until they meet.                                                                                              *
+ * Modified version of Chapter 12, Project 1. Reverses a *
+ * message using the function reverse, which reverses    *
+ * the string pointed to by message in place by swapping *
+ * characters with two pointers moving toward each other *
+ * until they meet.                                      *
  *********************************************************/
 
 
